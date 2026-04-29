@@ -62,7 +62,6 @@ export default function Page() {
             <div className="brand">
               <Logo />
               <div>
-                <div className="eyebrow">Vercel MVP</div>
                 <div className="brand-name">LLM отчёт по доступности</div>
               </div>
             </div>
