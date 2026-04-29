@@ -7,23 +7,36 @@ const sample = `https://example.com\nhttps://www.wikipedia.org/`;
 function Logo() {
   return (
     <svg
-      aria-label="Inweb"
-      viewBox="0 0 168 36"
-      width="112"
-      height="24"
+      aria-label="Inweb style mark"
+      viewBox="0 0 64 64"
+      width="28"
+      height="28"
       fill="none"
-      className="brand-logo"
+      className="brand-mark"
     >
-      <g stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M9 8.5v19" />
-        <path d="M17 14.5v13" />
-        <path d="M17 14.5c2.2-2.8 4.7-4.2 7.5-4.2c4.6 0 7.5 3.1 7.5 8.6v8.6" />
-        <path d="M39 11l5.2 16l4.8-11.2L53.8 27L59 11" />
-        <path d="M67.5 19c0-5 3.6-8.7 8.4-8.7c4.6 0 8 3.4 8 8.4c0 .9-.1 1.6-.2 2.1H71.3c.7 3.2 3 5.1 6.4 5.1c2.1 0 3.9-.6 5.7-2" />
-        <path d="M92 27V6.5" />
-        <path d="M92 19c0-5.1 3.3-8.7 8-8.7c4.7 0 8.1 3.7 8.1 8.7s-3.4 8.7-8.1 8.7c-4.7 0-8-3.6-8-8.7Z" />
-        <path d="M115 11l5.2 16l4.8-11.2l4.8 11.2l5.2-16" />
-      </g>
+      <rect
+        x="10"
+        y="10"
+        width="18"
+        height="44"
+        rx="9"
+        stroke="currentColor"
+        strokeWidth="4"
+      />
+      <path
+        d="M28 32C28 23.163 35.163 16 44 16V16C49.523 16 54 20.477 54 26V38"
+        stroke="currentColor"
+        strokeWidth="4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <circle
+        cx="44"
+        cy="44"
+        r="10"
+        stroke="currentColor"
+        strokeWidth="4"
+      />
     </svg>
   );
 }
