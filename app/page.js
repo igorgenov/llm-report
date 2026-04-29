@@ -6,12 +6,14 @@ const sample = `https://example.com\nhttps://www.wikipedia.org/`;
 
 function Logo() {
   return (
-    <svg aria-label="LLM report" viewBox="0 0 64 64" width="28" height="28" fill="none">
-      <rect x="8" y="10" width="18" height="44" rx="8" stroke="currentColor" strokeWidth="4" />
-      <rect x="38" y="10" width="18" height="28" rx="8" stroke="currentColor" strokeWidth="4" />
-      <path d="M26 32h12" stroke="currentColor" strokeWidth="4" strokeLinecap="round" />
-      <path d="M38 38v16" stroke="currentColor" strokeWidth="4" strokeLinecap="round" />
-    </svg>
+    <img
+      src="https://inweb.ua/static/img/new-23/logo-inweb-white.png"
+      alt="Inweb"
+      width="96"
+      height="32"
+      loading="eager"
+      style={{ display: 'block', width: '96px', height: '32px', objectFit: 'contain' }}
+    />
   );
 }
 
