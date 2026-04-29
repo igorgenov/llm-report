@@ -7,35 +7,29 @@ const sample = `https://example.com\nhttps://www.wikipedia.org/`;
 function Logo() {
   return (
     <svg
-      aria-label="Inweb style mark"
-      viewBox="0 0 64 64"
+      aria-label="Brand mark"
+      viewBox="0 0 96 64"
       width="28"
       height="28"
       fill="none"
       className="brand-mark"
     >
-      <rect
-        x="10"
-        y="10"
-        width="18"
-        height="44"
-        rx="9"
-        stroke="currentColor"
-        strokeWidth="4"
-      />
+      <circle cx="15" cy="16" r="6.5" fill="currentColor" />
+
       <path
-        d="M28 32C28 23.163 35.163 16 44 16V16C49.523 16 54 20.477 54 26V38"
+        d="M24 28 L36 56"
         stroke="currentColor"
-        strokeWidth="4"
+        strokeWidth="9"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
-      <circle
-        cx="44"
-        cy="44"
-        r="10"
+
+      <path
+        d="M40 44 L56 12 L73 56 L88 16"
         stroke="currentColor"
-        strokeWidth="4"
+        strokeWidth="9"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
