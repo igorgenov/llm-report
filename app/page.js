@@ -106,7 +106,7 @@ export default function Page() {
             />
 
             <div className="inline-note">
-              Используй по одному URL на строку. Для MVP лучше не перегружать длинными списками.
+              Используй по одному URL на строку.
             </div>
 
             <div className="actions-row">
@@ -122,7 +122,7 @@ export default function Page() {
       </div>
 
       {error ? <section className="feedback error">{error}</section> : null}
-      {loading ? <section className="feedback">Проверка может занять до минуты на бесплатном тарифе Vercel.</section> : null}
+      {loading ? <section className="feedback">Проверка может занять до минуты.</section> : null}
       {reportHtml ? <section className="report-host" dangerouslySetInnerHTML={{ __html: reportHtml }} /> : null}
 
       <style jsx>{`
