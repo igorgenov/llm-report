@@ -1,4 +1,4 @@
-# LLM отчёт по доступности — Vercel MVP
+# LLM отчёт по доступности
 
 Готовый MVP под Vercel/Next.js:
 
